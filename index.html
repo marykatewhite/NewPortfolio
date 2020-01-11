@@ -5,17 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/aaecb17ad1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Mary Kate White</title>
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">MKW</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+<body style="background-color:#000000">
+    <nav class="navbar navbar-expand-lg navbar-collapse show collapse navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">MKW</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -43,39 +43,46 @@
 
     <div class="container" id="aboutMe">
         <div class="row">
-            <div class="col-xs-12 col-md-4">
-                <img src="images/vcool.jpg" alt="Mary Kate White">
+            <div class="col-xs-12 col-md-4 justify-content-center">
+                <img src="images/vcool.jpg" id="myFace" alt="Mary Kate White">
             </div>
-            <div class="col-xs-12 col-md-8">
-                I am a media specialist and team manager with more than 10 years of experience. I thrive in fast-paced,
-                multifaceted executive roles, maintaining order and supporting diverse teams as we collaborate under
-                tight deadlines.
+            <div class="col-xs-12 col-md-8 vertical-center">
+                <p id="bioText">I am a media specialist and team manager with more than 10 years of experience. I thrive
+                    in fast-paced,
+                    multifaceted executive roles, maintaining order and supporting diverse teams as we collaborate under
+                    tight deadlines.</p>
             </div>
         </div>
     </div>
 
     <div class="container" id="projects">
-        <div class="row">
+        <div class="row justify-content-center">
+            <div class="col-xs-12">
+                <br>
+                <h3 id="pastProjects">Past Projects:</h3>
+            </div>
+        </div>
+        <div class="row justify-content-center">
 
             <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="images/carfree card.png" class="card-img-top" alt="carfree">
+                <div class="card-body">
+                    <p class="card-text">CarFree allows users to input their destination and receive a hyper-local
+                        forecast for the duration of their travel.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="images/dayplanner2.png" class="card-img-top" alt="dayplanner">
                 <div class="card-body">
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's content.</p>
                 </div>
             </div>
 
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                </div>
-            </div>
-
 
             <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="images/password generator.png" class="card-img-top" alt="passwordgenerator">
                 <div class="card-body">
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's content.</p>
@@ -86,21 +93,31 @@
     </div>
 
     <div class="container" id="contact">
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-xs-12">
-                <form>
-                    <div class="form-group">
-                        <label for="email">Email address</label>
-                        <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="Textarea1">Message:</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                </form>
-                <button type="button" class="btn btn-secondary btn-lg btn-block">Submit</button>
+                <h3 id="contactLabel">Get in Touch:</h3>
             </div>
         </div>
+        <div class="row justify-content-center">
+            <div class="col-xs-12 col-sm-2 justify-content-center">
+                <span style="color: white"><i class="fas fa-at fa-7x"></i></span>
+            </div>
+            <div class="col-xs-12 col-sm-2 justify-content-center">
+                <span style="color: white"><i class="fas fa-envelope fa-7x"></i></span>
+            </div>
+            <div class="col-xs-12 col-sm-2 justify-content-center">
+                <span style="color: white"><i class="fas fa-mobile-alt fa-7x"></i></span>
+            </div>
+            <div class="col-xs-12 col-sm-2 justify-content-center">
+                <span style="color: white"><i class="fab fa-linkedin fa-7x"></i></span>
+            </div>
+            <div class="col-xs-12 col-sm-2 justify-content-center">
+                <span style="color: white"><i class="fab fa-github fa-7x"></i></span>
+            </div>
+        </div>
+    </div>
+
+    </div>
     </div>
 
     <!-- https://images.pexels.com/photos/1061623/pexels-photo-1061623.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 -->

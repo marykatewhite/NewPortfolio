@@ -1,3 +1,8 @@
+body {
+    background-color: black;
+    color: black;
+}
+
 #introBox {
     background-image: url("images/hillH.jpg");
     background-size: cover;
@@ -5,18 +10,6 @@
     background-attachment: scroll;
     background-position: bottom;
     text-align: center;
-}
-
-#aboutMe {
-    background-color: black;
-}
-
-#projects {
-    background-color: red;
-}
-
-#contact {
-    background-color: green;
 }
 
 .jumbotron-fluid {
@@ -27,14 +20,39 @@
     font-size: 100px;
     line-height: 90px;
     padding-top: 50px;
+    padding-bottom: 75px;
 }
 
 #introText {
     color: white;
-    padding-top: 75px;
     font-size: 20px;
+    background-color: black;
 }
 
-body {
-    background-color: black;
+#bioText {
+    padding: 40px;
+    color: lightgray;
+    font-size: 22px;
+    line-height: 36px;
+}
+
+#myFace {
+    margin: auto;    
+    display: block;
+}
+
+.card-img-top {
+    height: 140px;
+}
+
+.card {
+    margin: 30px;
+}
+
+#pastProjects {
+    color: white;
+}
+
+#contactLabel {
+    color: white;
 }
