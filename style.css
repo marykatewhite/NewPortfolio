@@ -1,0 +1,40 @@
+#introBox {
+    background-image: url("images/hillH.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: bottom;
+    text-align: center;
+}
+
+#aboutMe {
+    background-color: black;
+}
+
+#projects {
+    background-color: red;
+}
+
+#contact {
+    background-color: green;
+}
+
+.jumbotron-fluid {
+    height: 550px;
+}
+
+#myName {
+    font-size: 100px;
+    line-height: 90px;
+    padding-top: 50px;
+}
+
+#introText {
+    color: white;
+    padding-top: 75px;
+    font-size: 20px;
+}
+
+body {
+    background-color: black;
+}
