@@ -3,42 +3,66 @@ body {
     color: black;
 }
 
-#introBox {
-    background-image: url("images/hillH.jpg");
-    background-size: cover;
+#aboutMe {
+    padding-top: 30px;
+}
+
+
+@media (max-width: 500px) {
+    #introBox {
+      background-image: url("images/hillS.jpg");
+      background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: bottom;
     text-align: center;
-}
-
-.jumbotron-fluid {
-    height: 550px;
-}
-
-#myName {
-    font-size: 100px;
-    line-height: 90px;
-    padding-top: 50px;
-    padding-bottom: 75px;
-}
+    }
+    .jumbotron-fluid {
+        height: 550px;
+    }
+    #myName {
+        font-size: 100px;
+        line-height: 90px;
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+  }
+  @media (min-width: 501px) {
+    #introBox {
+      background-image: url("images/hillH2.jpg");
+      background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: bottom;
+    text-align: center;
+    }
+    .jumbotron-fluid {
+        height: 350px;
+    }
+    #myName {
+        font-size: 100px;
+        line-height: 90px;
+        padding-top: 60px;
+        padding-bottom: 75px;
+    }
+  }
 
 #introText {
+    padding: 10px;
     color: white;
     font-size: 20px;
-    background-color: black;
 }
 
 #bioText {
-    padding: 40px;
     color: lightgray;
-    font-size: 22px;
-    line-height: 36px;
+    font-size: 18px;
+    line-height: 24px;
 }
 
 #myFace {
     margin: auto;    
     display: block;
+    padding-bottom: 40px;
 }
 
 .card-img-top {
@@ -49,10 +73,10 @@ body {
     margin: 30px;
 }
 
-#pastProjects {
+.sectionLabel {
     color: white;
 }
 
-#contactLabel {
-    color: white;
+.icons {
+    padding: 20px;
 }
