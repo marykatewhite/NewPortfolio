@@ -3,6 +3,19 @@ body {
     color: black;
 }
 
+a {
+    color: gray;
+}
+
+.iconrow {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+h4, a {
+    color: gray;
+}
+
 #aboutMe {
     padding-top: 30px;
 }
