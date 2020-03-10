@@ -1,6 +1,6 @@
 p {
   color: #3c3c3d;
-  font-size: 24px;
+  font-size: 18px;
 }
 button {
   width: 120px;
@@ -119,7 +119,7 @@ a {
     text-align: center;
   }
   .jumbotron-fluid {
-    height: 550px;
+    height: 800px;
   }
   #myName {
     font-size: 100px;
