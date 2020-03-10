@@ -12,8 +12,8 @@
     <title>Mary Kate White</title>
 </head>
 
-<body style="background-color:#000000">
-    <nav class="navbar navbar-expand-lg navbar-collapse show collapse navbar-light bg-light">
+<body>
+    <nav class="navbar navbar-expand-lg navbar-collapse show collapse navbar-light bg-light sticky-top">
         <a class="navbar-brand" href="index.html">MKW</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
             <span class="navbar-toggler-icon"></span>
@@ -37,129 +37,152 @@
 
 
     <div class="jumbotron-fluid vertical-center" id="introBox">
-        <h1 id="myName">Mary Kate White.</h1>
-        <p id="introText">I am an <b>editor</b>, <b>designer</b> and aspiring <b>full-stack web developer.</b></p>
+        <div class="container" id="namebox">
+            <div class="row justify-content-center">
+                <div class="col-xs-12">
+                    <h1 id="myName">Mary Kate White.</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xs-12">
+                    <p id="introText">An <b>editor,</b> <b>designer</b> and <b>full-stack web developer.</b></p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xs-3">
+                    <button type="button" class="btn btn-lg btn-secondary">About.</button>
+                </div>
+                <div class="col-xs-3">
+                    <button type="button" class="btn btn-lg btn-secondary">Projects.</button>
+                </div>
+                <div class="col-xs-3">
+                    <button type="button" class="btn btn-lg btn-secondary">Résumé.</button>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="container" id="aboutMe">
+    <div class="container-fluid" id="aboutMe">
         <div class="row">
-            <div class="col-xs-12 col-md-4 justify-content-center">
+            <div class="col-xs-12 col-md-5 justify-content-center">
                 <img src="images/vcool.jpg" id="myFace" alt="Mary Kate White">
             </div>
-            <div class="col-xs-12 col-md-8 vertical-center">
+            <div class="col-xs-12 col-md-7 vertical-center">
                 <p id="bioText">I am Mary Kate White, a media specialist and team manager with more than 10 years of
-                    experience. I thrive
-                    in fast-paced, multifaceted executive roles, maintaining order and supporting diverse teams as we
-                    collaborate under
-                    tight deadlines.<br><br>
-                    Currently enrolled at the University of Richmond's six-month Full-Stack Web Development Bootcamp,
-                    I am building on my background in design and communication by learning how to build web applications
-                    from front to back. The course curriculum covers front-end design, API interaction, the MERN Stack
-                    (MongoDB, Express.js,
-                    React.js, Node.js) and MySQL, adding to my knowledge of web design and content management systems
-                    from working in digital publishing.<br><br>
-                    You can view my resume <a href="images/Mary Kate White resume.pdf" target="_blank"><b>here.</b> </a>
+                    experience. I have worked as an editor, designer and manager for newspapers, magazines, blogs and
+                    marketing departments in China and the United States since 2010.<br><br>
+                    我是白茉莉，一名媒体专家和团队经理，有10多年的工作经验。从2010年起，我在中国和美国的报纸、杂志、博客和营销部门担任编辑、设计师和经理。<br><br>
+                    I am currently looking for opportunities to use my expertise in communications, marketing and web development to
+                    help businesses grow in English- and Chinese-speaking markets.<br><br>
+                    我目前正在寻找机会，利用我在沟通，营销和网页设计方面的专业知识，帮助企业在英语市场和汉语市场发展。<br><br>
+                    <a href="images/Mary Kate White resume.pdf" target="_blank"><b>My resume/我的简历</b> </a>
                 </p>
             </div>
         </div>
     </div>
-    <br><br>
-    <div class="container" id="projects">
 
+    <div class="container-fluid" id="projects">
         <div class="row justify-content-center">
             <div class="col-xs-12">
                 <br>
                 <h3 class="sectionLabel">Past Projects:</h3>
             </div>
         </div>
+    </div>
 
-
-        <div class="row justify-content-center">
-
+    <div class="container-fluid" id="friendango">
+        <div class="row">
             <div class="col-xs-12 col-sm-4">
                 <a href="https://friendango.herokuapp.com" target="_blank">
-                    <div class="card" style="width: 18rem;">
-                        <img src="images/friendangocard.png" class="card-img-top" alt="carfree">
-                        <div class="card-body">
-                            <p class="card-text">
-                                <h4>Friendango</h4>
-                                A social network for movie reviews with charts that analyze the popularity, average
-                                scores, and score distributions.<br>
-                                <a href="https://github.com/grlucy/Friendango"><b>Click here to see the
-                                        repository.</b></a>
-                            </p>
-                        </div>
-                    </div>
+                    <img src="images/friendangocard.png" alt="friendango" id="friendangoimg">
                 </a>
             </div>
+            <div class="col-xs-12 col-sm-8">
+                <h4>Friendango</h4>
+                <p>A social network for movie reviews with charts that analyze the popularity, average
+                    scores, and score distributions.<br>
+                    <a href="https://github.com/grlucy/Friendango"><b>Click here to see the
+                            repository.</b></a>
+                </p>
+            </div>
+        </div>
+    </div>
 
+
+
+    <div class="container-fluid" id="carfree">
+        <div class="row">
+            <div class="col-xs-12 col-sm-8">
+                <h4>CarFree</h4>
+                CarFree allows users to input their destination and receive a hyper-local
+                forecast for the duration of their travel.<br>
+                <a href="https://github.com/marykatewhite/Project1"><b>Click here to see the
+                        repository.</b></a>
+                </p>
+            </div>
             <div class="col-xs-12 col-sm-4">
                 <a href="https://marykatewhite.github.io/Project1/" target="_blank">
-                    <div class="card" style="width: 18rem;">
-                        <img src="images/carfree card.png" class="card-img-top" alt="carfree">
-                        <div class="card-body">
-                            <p class="card-text">
-                                <h4>CarFree</h4>
-                                CarFree allows users to input their destination and receive a hyper-local
-                                forecast for the duration of their travel.<br>
-                                <a href="https://github.com/marykatewhite/Project1"><b>Click here to see the
-                                        repository.</b></a>
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-xs-12 col-sm-4">
-                <a href="https://cryptic-basin-19409.herokuapp.com/" target="_blank">
-                    <div class="card" style="width: 18rem;">
-                        <img src="images/burger card.png" class="card-img-top" alt="burgertracker">
-                        <div class="card-body">
-                            <p class="card-text">
-                                <h4>Burger Tracker</h4>An app allowing users to compile a list of burgers they hope to eat and which from the list they have eaten using Express Handlebars.<br>
-                                <a href="https://github.com/marykatewhite/eatdaburger"><b>Click here to see the
-                                        repository.</b></a>
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-xs-12 col-sm-4">
-                <a href="https://marykatewhite.github.io/DayPlanner/" target="_blank">
-                    <div class="card" style="width: 18rem;">
-                        <img src="images/dayplanner2.png" class="card-img-top" alt="dayplanner">
-                        <div class="card-body">
-                            <p class="card-text">
-                                <h4>Day Planner</h4>A simple day planner that color-codes tasks and time slots based on
-                                whether they are in the past, present or future.<br>
-                                <a href="https://github.com/marykatewhite/DayPlanner"><b>Click here to see the
-                                        repository.</b></a>
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-
-            <div class="col-xs-12 col-sm-4">
-                <a href="https://marykatewhite.github.io/PasswordGenerator/" target="_blank">
-                    <div class="card" style="width: 18rem;">
-                        <img src="images/password generator.png" class="card-img-top" alt="passwordgenerator">
-                        <div class="card-body">
-                            <p class="card-text">
-                                <h4>Password Generator</h4>A password generator that creates passwords based on users'
-                                preferences for
-                                length and character types.<br>
-                                <a href="https://github.com/marykatewhite/PasswordGenerator"><b>Click here to view the
-                                        repository.</b></a>
-                            </p>
-                        </div>
-                    </div>
+                    <img src="images/carfree card.png" id="carfreeimg" alt="carfree">
                 </a>
             </div>
         </div>
     </div>
+
+    <div class="container-fluid" id="burgertracker">
+        <div class="row">
+            <div class="col-xs-12 col-sm-4">
+                <a href="https://cryptic-basin-19409.herokuapp.com/" target="_blank">
+                    <img src="images/burger card.png" alt="burgertracker" id="burgerimg">
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-8">
+                <h4>Burger Tracker</h4>
+                <p>An app allowing users to compile a list of burgers they hope to
+                    eat and which from the list they have eaten using Express Handlebars.<br>
+                    <a href="https://github.com/marykatewhite/eatdaburger"><b>Click here to see the
+                            repository.</b></a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="dayplanner">
+        <div class="row">
+            <div class="col-xs-12 col-sm-8">
+                <h4>Day Planner</h4>
+                <p>A simple day planner that color-codes tasks and time slots based on
+                    whether they are in the past, present or future.<br>
+                    <a href="https://github.com/marykatewhite/DayPlanner"><b>Click here to see the
+                            repository.</b></a>
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+                <a href="https://marykatewhite.github.io/DayPlanner/" target="_blank">
+                    <img src="images/dayplanner2.png" id="dayplannerimg" alt="dayplanner">
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid" id="passwordgenerator">
+        <div class="row">
+            <div class="col-xs-12 col-sm-4">
+                <a href="https://marykatewhite.github.io/PasswordGenerator/" target="_blank">
+                    <img src="images/password generator.png" alt="passwordgenerator" id="passwordgeneratorimg">
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-8">
+                <h4>Password Generator</h4>
+                <p>A password generator that creates passwords based on users' preferences for length and character
+                    types.<br>
+                    <a href="https://github.com/marykatewhite/PasswordGenerator"><b>Click here to see the
+                            repository.</b></a>
+                </p>
+            </div>
+        </div>
+    </div>
+
 
     <br><br>
     <div class="container" id="contact">
@@ -170,15 +193,15 @@
         </div>
         <div class="row justify-content-center iconrow" id="icons">
             <div class="col-xs-12 col-sm-2 d-flex justify-content-center">
-                <a href="mailto:marykatewhite@gmail.com"><span style="color: white"><i
+                <a href="mailto:marykatewhite@gmail.com"><span style="color: darkgray"><i
                             class="icons fas fa-envelope fa-3x"></i></span></a>
             </div>
             <div class="col-xs-12 col-sm-2 d-flex justify-content-center">
-                <a href="https://www.linkedin.com/in/marykatewhite/" target="_blank"><span style="color: white"><i
+                <a href="https://www.linkedin.com/in/marykatewhite/" target="_blank"><span style="color: darkgray"><i
                             class="icons fab fa-linkedin fa-3x"></i></span></a>
             </div>
             <div class="col-xs-12 col-sm-2 d-flex justify-content-center">
-                <a href="https://github.com/marykatewhite" target="_blank"><span style="color: white"><i
+                <a href="https://github.com/marykatewhite" target="_blank"><span style="color: darkgray"><i
                             class="icons fab fa-github fa-3x"></i></span></a>
             </div>
         </div>
