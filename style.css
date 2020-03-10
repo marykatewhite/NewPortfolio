@@ -1,3 +1,7 @@
+p {
+  color: #3c3c3d;
+  font-size: 24px;
+}
 button {
   width: 120px;
   margin-left: 20px;
@@ -28,13 +32,13 @@ a {
 }
 
 #bioText {
-  color: darkgrey;
+  color: #3c3c3d;
   font-size: 18px;
   line-height: 24px;
 }
 
 #myFace {
-  width: 100%;
+  width: 80%;
   height: auto;
   margin: auto;
   display: block;
